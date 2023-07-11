@@ -1,8 +1,8 @@
 @extends('layout.main-layout');
 
 @section('content')
-    <p>
-        Here is the first item
-    </p>
+    <h3>
+        {{ $fumetti[0]['title'] }}
+    </h3>
     <a href="{{ route('home') }}">Home</a>
 @endsection
