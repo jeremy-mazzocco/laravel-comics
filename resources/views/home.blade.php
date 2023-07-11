@@ -4,5 +4,5 @@
     <div>
         DC Comics Home
     </div>
-    <a href=""></a>
+    <a href="{{ route('action')}}">First item</a>
 @endsection
