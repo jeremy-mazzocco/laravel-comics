@@ -1,1 +1,30 @@
-@import '~bootstrap/scss/bootstrap';
+// @import '~bootstrap/scss/bootstrap';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    height: 70px;
+    border: 2px solid;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 250px;
+    height: 200px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
